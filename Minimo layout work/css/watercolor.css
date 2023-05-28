@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(244, 241, 242);
+  font-size: 11px;
+  text-align: center;
+  padding: 25px 25px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.navmR {
+  padding-top: 25px;
+}
+
+.navm {
+  color: rgb(100, 100, 100);
+}
+
+.navm .navmT {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.minimo {
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: "Nova Mono";
+}
+
+.navmL {
+  float: left;
+}
+
+.navmR {
+  float: right;
+}
+
+.headText {
+  font-size: 23px;
+  color: rgb(75, 75, 75);
+  font-weight: 500;
+}
+
+.contentBox {
+  width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 30px 60px 30px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px rgb(190, 190, 190);
+          box-shadow: 0px 0px 8px rgb(190, 190, 190);
+}
+
+.contentText {
+  width: 800px;
+  height: 200px;
+  padding-left: 55px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  text-align: left;
+  color: rgb(100, 100, 100);
+}
+.contentText h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+}
+.contentText .supText {
+  font-family: "Mulish";
+}
+
+.contentBlock {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  width: 380px;
+  font-size: 16px;
+  text-align: left;
+  color: rgb(100, 100, 100);
+}
+.contentBlock h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+}
+.contentBlock .supText {
+  font-family: "Mulish";
+}
+
+.blockText {
+  width: 380px;
+}
+
+.blocks {
+  padding-left: auto;
+  width: 970px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+button {
+  margin: 50px 0px 0px 10px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: serif;
+  border-radius: 0px;
+  background-color: white;
+  color: rgb(100, 100, 100);
+  border: 2px rgb(100, 100, 100) solid;
+}
